@@ -24,7 +24,7 @@ form.addEventListener("submit", (event) => {
 const resetForm = () => {
     if(parseData !== "") {
         input.value = parseData.email;
-        textarea.value = parseData.message;
+        message.value = parseData.message;
     }
 }
 
